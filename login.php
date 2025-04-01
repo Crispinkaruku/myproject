@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Invalid password. <a href='login.html'>Try Again</a>";
         }
     } else {
-        echo "No account found with this email. <a href='register.html'>Register</a>";
+        echo "No account is found with this email. <a href='register.html'>Register</a>";
     }
 
     $stmt->close();
