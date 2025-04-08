@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
         
         <p>Already have an account? <a href="index.php">Login</a></p>
-        
+        <!-- comment -->
     </div>
 </body>
         </html>
